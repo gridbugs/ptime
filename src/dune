@@ -1,0 +1,12 @@
+(env
+ (dev
+  (flags
+   (:standard -warn-error -27))))
+
+(copy_files
+  (files ../src-clock/ptime_clock.ml))
+
+(library
+  (public_name ptime)
+  (wrapped false)
+  (modules ptime ptime_clock))

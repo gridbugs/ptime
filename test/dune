@@ -1,0 +1,12 @@
+(env
+ (dev
+  (flags
+   (:standard
+     -warn-error -27
+     -warn-error -32
+     -warn-error -35
+     -warn-error -38))))
+
+(tests
+  (names basics test test_unix)
+  (libraries ptime unix))

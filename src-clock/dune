@@ -1,0 +1,5 @@
+(library
+  (public_name ptime.clock.os)
+  (name ptime_clock_os)
+  (foreign_stubs (language c) (names ptime_clock_stubs))
+  (libraries ptime unix))
