@@ -1,4 +1,4 @@
-{0 Ptime {%html: <span class="version">%%VERSION%%</span>%}}
+{0 Ptime {%html: <span class="version">v1.1.0</span>%}}
 
 {!Ptime} has platform independent support for POSIX time. It provides
 a {{!Ptime.t}type} to represent a well-defined range of POSIX

@@ -1,5 +1,5 @@
 description = "POSIX time for OCaml"
-version = "%%VERSION_NUM%%"
+version = "1.1.0"
 requires = ""
 archive(byte) = "ptime.cma"
 archive(native) = "ptime.cmxa"
@@ -8,7 +8,7 @@ plugin(native) = "ptime.cmxs"
 
 package "top" (
   description = "Ptime toplevel support"
-  version = "%%VERSION_NUM%%"
+  version = "1.1.0"
   requires = "ptime"
   directory = "top"
   archive(byte) = "ptime_top.cma"
@@ -19,13 +19,13 @@ package "top" (
 
 package "clock" (
   description = "POSIX time clock interface"
-  version = "%%VERSION_NUM%%"
+  version = "1.1.0"
   requires = ""
   directory = "clock"
 
   package "os" (
     description = "Ptime_clock for your platform (including JavaScript)"
-    version = "%%VERSION_NUM%%"
+    version = "1.1.0"
     requires = "ptime"
     directory = "os"
     archive(byte) = "ptime_clock.cma"
